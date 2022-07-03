@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required Meta Tag-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>About</title>
+
+     <!-- Css File -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <!-- Responsive CSS -->
+     <link rel="stylesheet" href="responsive.css">  
+     
+</head>
+<body>
+     <!--======== Home Page ========-->
+     <section class="sub_header">
+          <nav>
+               <a href="index.html"><img src="img/logo.png" alt=""></a>
+               <div class="nav_links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="course.html">Course</a></li>
+                         <li><a href="blog.html">Blog</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                    </ul>
+               </div>
+               <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1>About Us</h1>
+     </section>
+
+     <!-- About Us Content -->
+     <section class="about_us">
+          <div class="row">
+               <div class="about_col">
+                    <h1>We Are The Largest Company Over The World</h1>
+                    <p>
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt minus veniam, qui maxime obcaecati quasi consequuntur explicabo fugiat nostrum ea magni vero corrupti odit atque ullam quod? Voluptate ex itaque eligendi sit, praesentium quidem rerum cum ab dolorem eos velit veniam. Deserunt voluptatem repellat veniam, optio temporibus cupiditate pariatur. Totam quaerat voluptate a ipsum iste rem corrupti repellat magnam exercitationem maxime quisquam tempora, animi commodi saepe ratione repudiandae labore sed?
+                    </p>
+                    <a href="" class="hero_btn red_btn">Explore More</a>
+               </div>
+               <div class="about_col">
+                    <img src="img/about.jpg" alt="">
+               </div>
+          </div>
+
+     </section>
+     
+     <!-- Footer Section -->
+     <section class="footer">
+               <h3>About Us</h3>
+               <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>Harum ab illo eligendi voluptatibus sint nobis!
+               </p>
+               <a href="#"><i class="fa-brands fa-facebook"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nesciunt.</p>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--========== Java Script For Toggole Menu ==========-->
+     <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+               navLinks.style.right="0";
+          }
+          function hideMenu(){
+               navLinks.style.right="-200px";
+          }
+     </script>
+</body>
+</html>

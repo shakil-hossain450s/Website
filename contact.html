@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Required Meta Tag-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <title>Contact Us</title>
+
+     <!-- Css File -->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/fontawesome.min.css">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <!-- Responsive CSS -->
+     <link rel="stylesheet" href="responsive.css">  
+     
+</head>
+<body>
+     <!--======== Home Page ========-->
+     <section class="sub_header">
+          <nav>
+               <a href="index.html"><img src="img/logo.png" alt=""></a>
+               <div class="nav_links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="about.html">About</a></li>
+                         <li><a href="course.html">Course</a></li>
+                         <li><a href="blog.html">Blog</a></li>
+                         <li><a href="contact.html">Contact</a></li>
+                    </ul>
+               </div>
+               <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1>Contac Us</h1>
+     </section>
+
+    <!-- Location -->
+    <section class="location">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58364.60291685055!2d89.08625614835778!3d23.89714638627942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe965536b7d61f%3A0x28fea367efdb38c9!2sKushtia!5e0!3m2!1sen!2sbd!4v1649825963058!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact_us">
+         <div class="row">
+              <div class="contact_col">
+                   <div>
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span>
+                         <h5>XYZ Road, ABC Building</h5>
+                         <p>Bheramara, Kushtia, Khulna, Bangladesh</p>
+                    </span>
+                   </div>
+                   <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                         <h5>+1 0123456789</h5>
+                         <p>Sunday To Saturday, 8AM to 6PM</p>
+                    </span>
+                   </div>
+                   <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                         <h5>info@mail.com</h5>
+                         <p>Email Us Your Query</p>
+                    </span>
+                   </div>
+              </div>
+              <div class="contact_col">
+                   <form action="form_handelar.php" method="post">
+                        <input type="text" name="name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                        <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                        <textarea rows="8" name="message" placeholder="Message"></textarea>
+                        <button type="button" class="hero_btn red_btn">Submit</button>
+                   </form>
+              </div>
+         </div>
+    </section>
+
+    
+     
+     <!-- Footer Section -->
+     <section class="footer">
+               <h3>About Us</h3>
+               <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>Harum ab illo eligendi voluptatibus sint nobis!
+               </p>
+               <a href="#"><i class="fa-brands fa-facebook"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="#"><i class="fa-brands fa-instagram"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, nesciunt.</p>
+     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--========== Java Script For Toggole Menu ==========-->
+     <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+               navLinks.style.right="0";
+          }
+          function hideMenu(){
+               navLinks.style.right="-200px";
+          }
+     </script>
+</body>
+</html>

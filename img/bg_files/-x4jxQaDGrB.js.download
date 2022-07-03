@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("SupportInboxMainContainerQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="5020513858033175"}),null);
+__d("SupportInboxMainContainerQuery$Parameters",["SupportInboxMainContainerQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("SupportInboxMainContainerQuery_facebookRelayOperation"),metadata:{},name:"SupportInboxMainContainerQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("SupportInboxItemsTabType",[],(function(a,b,c,d,e,f){a=Object.freeze({REPORTS:"REPORTS",APPEALS:"APPEALS",REPORTS_AND_ESCALATIONS:"REPORTS_AND_ESCALATIONS",IG_CREATOR_SUPPORT:"IG_CREATOR_SUPPORT"});f["default"]=a}),66);
